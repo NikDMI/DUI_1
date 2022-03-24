@@ -1,0 +1,1028 @@
+:root{
+	--color-green: rgb(0,137,123);
+	--color-white: rgb(255,255,255);
+	-color-black:rgb(33,33,33);
+	--color-background-aqua:rgb(228,253,249);
+	--color-light-gray:rgb(240,241,241);
+}
+
+@font-face {
+	font-family: OpenSans_SemiBold;
+	src: url(./fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: OpenSans;
+	src: url(./fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url(./fonts/Roboto-Regular.ttf);
+}
+
+
+@font-face {
+	font-family: Roboto_Bold;
+	src: url(./fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+	font-family: OpenSans_Bold;
+	src: url(./fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+	font-family: OpenSans_Light;
+	src: url(./fonts/OpenSans-Light.ttf);
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper{
+	width: 1400px;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+
+/*INVITE-BLOCK  by Nikita M.*/
+
+.invite-block{
+    width:100%;
+    background-image: url(./images/header_background.jpg);
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    font-family: OpenSans_SemiBold;
+}
+
+.Opacity_Rectangle{
+    background-color: rgba(0,0,0,0.55);
+}
+
+.invite-block nav{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    background-color: rgb(255,255,255);
+    padding: 0px 115px;
+}
+
+.Logo{
+    font-size: 19pt;
+}
+
+
+.invite-block nav ul{
+    margin-left: 340px;
+    font-size: 15pt;
+    list-style-type: none;
+}
+
+.invite-block nav ul a{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.invite-block nav ul a:nth-child(6){
+    margin: 0;
+}
+
+.invite-block nav ul a:hover{
+    box-shadow: 0px -11px 0px -10px rgb(0,137,123),0px 11px 0px -10px rgb(0,137,123);
+    cursor: pointer;
+}
+
+.invite-block .search_icon{
+    margin-left: 30px;
+}
+
+.invite-block .search_icon:hover i{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.invite-block .content{
+    height:655px ;
+    color:rgb(255,255,255); 
+}
+
+.invite-block .Text1{
+    font-size: 45pt;
+    line-height: 45pt;
+    padding-top: 185px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.invite-block .Text2{
+    font-family: OpenSans;
+    font-size: 17pt;
+    line-height: 17pt;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.invite-block .Buttons{
+    display: flex;
+    margin-top: 110px;
+    padding: 0px 465px;
+    justify-content: space-between;
+}
+
+.invite-block .Buttons .BasicButton{
+    background-color: rgba(0,0,0,0);
+    color:rgb(255,255,255); 
+    font-family: Roboto;
+    font-size: 15pt;
+    width: 220px;
+    height: 70px;
+    box-sizing: border-box;
+    border: 3px solid white;
+    line-height: 70px;
+    text-align: center;
+
+}
+
+.invite-block .Buttons .BasicButton:hover{
+    background-color: rgb(0,137,123);
+    border-color:rgb(0,137,123);
+    cursor: pointer;
+}
+
+.invite-block .Buttons .BasicButton:active{
+    background-color: rgb(3, 117, 106);
+    border-color:rgb(3, 117, 106);
+}
+
+.invite-block .ArrowDown{
+    display: flex;
+    font-size: 15pt;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.invite-block .ArrowDown i:hover{
+    color:rgb(0,137,123);
+}
+
+/*ABOUT US  by Egor K.*/
+.by-egor-block *{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;	
+}
+
+.about-us{
+	height:670px;
+	background-color:var(--color-white);
+	
+}
+.about-us-header{
+	height:185px;
+	padding-top:125px;
+	text-align:center;
+	font-family:OpenSans_Bold;
+	font-size:24pt;
+}
+
+.about-us-text{
+	height:160px;
+	text-align:center;
+	font-family:OpenSans;
+	font-size:12pt;	
+}
+
+.about-us-flexbox-center{
+	display:flex;
+	justify-content:center;
+}
+
+.about-us-grid-container{
+	display:grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows:repeat(1, 1fr);
+	grid-column-gap: 30px;
+}
+
+.about-us-grid-item{
+	width:370px;
+	height:200px;
+}
+
+.about-us-icon{
+height: 100px;
+text-align:center;
+}
+
+.about-us-pic-text{
+	height: 40px;
+	text-align:center;
+	font-family:OpenSans_SemiBold;
+	font-size:16pt;
+}
+
+.about-us-pic-text-2{
+	height: 60px;
+	text-align:center;
+	font-family:OpenSans;
+	font-size:12pt;
+}
+
+/*SERVICES  by Alex C.*/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*BEGIN-------------------------------------------SASHA SDELAL'-------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+.by-sasha-block *{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.grid-container{
+	display:grid;
+}
+
+.flexbox-center{
+	display:flex;
+	justify-content:center;
+}
+
+.services{
+	height: 1415px;
+	background-color: var(--color-background-aqua);
+}
+
+/*-----------------------------------------------------------*/
+
+.grid-container.services-container{
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows:repeat(2, 1fr);
+	grid-gap: 30px 30px;
+}
+
+.grid-item.services-item{
+	width: 370px; 
+	height: 435px; 
+	background-color: var(--color-white);
+}
+
+.services-caption-header{
+	padding-top: 175px;
+	height: 230px;
+	text-align: center;
+	font-family:OpenSans_Bold;
+	font-size:24pt;  
+}
+
+.services-caption-text{
+	height: 150px;
+	text-align: center;
+	font-family:OpenSans;
+	font-size:15pt;
+}
+
+.services-item-img{
+	display: block;
+	margin-top:60px;
+	margin-left:auto;
+	margin-right:auto;
+	width:55px; 
+	height:60px;
+	color:inherit;
+}
+
+.services-item-header{
+	font-family:OpenSans_SemiBold;
+	font-size:15pt;
+	text-align:center;
+	margin-top:40px;
+	height:40px;
+}
+
+.services-item-text{
+	text-align: center;
+	font-family:OpenSans;
+	font-size:11pt;
+	padding-left:45px;
+	padding-right:45px;
+	line-height: 1.6;
+	height:130px;
+}
+
+.services-item-button{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+	width:150px;
+	height:55px;
+	font-family:OpenSans_SemiBold;
+	font-size:16pt;
+	color:inherit;
+	background:transparent;
+	border: 2px solid;
+	border-color:inherit;
+}
+
+.grid-item.services-item:hover{
+	background-color:var(--color-green);
+	color:var(--color-white);
+	/*box-shadow: 0 3.5px 2px 4px var(--color-light-gray);*/	
+}
+.services-item-button:hover{
+	cursor: pointer;
+}
+
+.services-item:hover > .services-item-img{
+	filter:invert(100%);
+}
+
+/*------------------------------------------------------------*/
+/*LATEST WORKS  by Alex K.*/
+
+.latest-works{
+	height:1610px;
+	background-color: var(--color-white);
+}
+
+.latest-works-caption-header{
+	height:180px;
+	padding-top:125px;
+	text-align:center;
+	font-family:OpenSans_Bold;
+	font-size:24pt;
+}
+
+.latest-works-caption-text{
+	height:150px;
+	text-align:center;
+	font-family:OpenSans;
+	font-size:15pt;
+}
+
+.latest-works-nav-container{
+	display:flex;
+	height:55px;
+	margin-bottom:120px;
+	padding-left:355px;
+	padding-right:355px;
+	justify-content:space-between;
+}
+
+.latest-works-nav-button{	
+	height:100%;
+	background-color: var(--color-white);
+	border: 2px solid var(--color-green);
+	font-family:OpenSans_SemiBold;
+	font-size:16pt;
+}
+
+.latest-works-nav-button:hover{
+	background-color: var(--color-green);
+	border-color: var(--color-green);
+	color:var(--color-white);	
+	cursor:pointer;
+}
+
+.grid-container.latest-works-cotainer{
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows:repeat(2, 1fr);
+	grid-gap: 30px 30px;
+}
+
+.grid-item.latest-works-item{
+	width:370px;
+	height:370px;
+	background-size: cover;
+}
+
+.latest-works-carpet{
+	width:100%;
+	height:100%;
+	background-color: rgba(0,0,0,0.65);
+	opacity:0;
+}
+
+.latest-works-carpet:hover{
+	opacity:1;
+	cursor: pointer;
+}
+
+.latest-works-carpet-header{
+	font-family:OpenSans_SemiBold;
+	font-size: 16pt;
+	padding-top:140px;
+	text-align:center;
+	color:var(--color-white);
+}
+
+.latest-works-carpet-text{
+	font-family:OpenSans_SemiBold;
+	font-size:11pt;
+	text-align:center;
+	color:var(--color-white);
+}
+
+
+.lates-works-view-all-container{
+	display:flex;
+	justify-content:center;
+	align-items:end;
+	height:200px;
+}
+
+.lates-works-view-all-button{
+	height:70px;
+	width:220px;
+	background-color: var(--color-white);
+	border: 2px solid var(--color-black);
+	font-family:Roboto_Bold;
+	font-size:16pt;
+}
+
+.button-selected{
+	background-color: var(--color-green);
+	border-color: var(--color-green);
+	color:var(--color-white);
+}
+
+.lates-works-view-all-button:hover{
+	background-color: var(--color-green);
+	border-color: var(--color-green);
+	color:var(--color-white);	
+	cursor:pointer;
+}
+
+
+/*PRICING  by Nikita M.*/
+.pricing{
+    height: 1140px;
+    background-color: rgb(240,241,241);
+    font-family: OpenSans;
+}
+
+.pricing .Text1{
+    font-family: OpenSans_Bold;
+    text-align: center;
+    font-size: 23pt;
+    padding-top: 125px;
+    padding-bottom: 25px;
+}
+
+.pricing .Text2{
+    text-align: center;
+    font-size: 11pt;
+    padding: 0px 385px;
+    margin-bottom: 125px;
+}
+
+.pricing .Suggestions{
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 115px 125px 115px;
+}
+
+.pricing .Suggestions .PriceBox{
+    width: 370px;
+    position: relative;
+    background-color: white;
+}
+
+.pricing .Suggestions .PriceBox:hover{
+    box-shadow: 0px 5px 20px black;
+}
+
+.pricing .Suggestions .PriceBox .Head{
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 180px;
+    background-color: rgb(57,73,171);
+    color:white;
+}
+
+.pricing .Suggestions .PriceBox .Head::before{
+    content: "";
+    position: absolute;
+    top:150px;
+    left: 0px;
+    border-left: 370px solid rgb(57,73,171); 
+    border-right: 370px solid transparent; 
+    border-top: 30px solid transparent; 
+    border-bottom: 30px solid transparent; 
+
+}
+
+.pricing .Suggestions .PriceBox .Head .Text_Quality{
+    font-size: 19pt;
+    text-align: center;
+    padding-top:40px ;
+}
+
+.pricing .Suggestions .PriceBox .Head .Text_Price{
+    padding-top:30px ;
+    padding-left: 100px;
+}
+
+.pricing .Suggestions .PriceBox .Head .Text_Price span{
+    display: inline-block;
+}
+
+.pricing .Suggestions .PriceBox .Head .Text_Price .Span_Dollar{
+    font-size: 19pt;
+    position: relative;
+    top:-15px;
+}
+
+.pricing .Suggestions .PriceBox .Head .Text_Price .Span_Price{
+    font-size: 38pt;
+    line-height: 38pt;
+    padding-right: 5px;
+}
+
+.pricing .Suggestions .PriceBox .Head .Text_Price .Span_Period{
+    font-size: 13pt;
+}
+
+.pricing .Suggestions .PriceBox .Content{
+    display: flex;
+    height: 235px;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+
+.pricing .Suggestions .PriceBox .TextInfo{
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px 95px;
+    line-height: 45px;
+    font-family: OpenSans_Light;
+    font-size: 13pt;
+    border-bottom: 1px solid rgb(191,191,191);
+    
+}
+
+
+.pricing .BasicButton{
+    background-color: rgba(0,0,0,0);
+    color:black; 
+    font-family: OpenSans_SemiBold;
+    font-size: 15pt;
+    width: 180px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+    line-height: 60px;
+    text-align: center;
+    margin: 65px 95px;
+}
+
+.pricing .BasicButton:hover{
+    background-color: rgb(0,137,123);
+    border-color:rgb(0,137,123);
+    color:white;
+    cursor: pointer;
+}
+
+.pricing .BasicButton:active{
+    background-color: rgb(3, 117, 106);
+    border-color:rgb(3, 117, 106);
+}
+
+/*OUR-TEEM  by Egor K.*/
+
+
+
+.Our-teem-member
+{
+    height:1095px;
+    background-color: #fff;
+}
+.Our-teem-member-header-box{
+	height:100px;
+}
+
+.Our-teem-member-header{
+   
+	height:185px;
+	padding-top:125px;
+	text-align:center;
+	font-family:OpenSans_Bold;
+	font-size:24pt;
+}
+
+.Our-teem-member-text{
+
+	height:160px;
+	text-align:center;
+	font-family:OpenSans;
+	font-size:12pt;	
+}
+
+.Our-teem-member-flexbox-center{
+	display:flex;
+	justify-content:center
+}
+
+.Our-teem-member-grid-container{
+	display:grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows:repeat(1, 1fr);
+	grid-column-gap: 30px;
+}
+
+.Our-teem-member-grid-item{
+   
+	width:370px;
+	height:485px;
+}
+
+.Our-teem-member-pic-text{
+	height: 60px;
+	padding-top: 30px;
+	text-align:center;
+	font-family:OpenSans_SemiBold;
+	font-size:16pt;
+}
+
+.Our-teem-member-pic-text-2{
+	height: 60px;
+	padding-top: 5px;
+	text-align:center;
+	font-family:OpenSans;
+	font-size:12pt;
+}
+	  
+	  .Our-teem-member-icon-box{
+		width: 100%;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+	  }
+	  
+	  
+	  .Our-teem-member-icon-box-icon{
+		text-decoration: none;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		width: 50px;
+		height: 50px;
+		border-radius: 10%;
+		margin: 15px;
+		background-color: #f2f2f2;
+		transition: all 0.3s ease;
+		position: relative;
+		overflow:hidden;
+	  }
+	  
+	  .Our-teem-member-icon-box-icon i {
+		font-size: 26px;
+		color: #67798e;
+		transition: all 0.3s ease;
+		z-index: 1;
+	  }
+	  
+	  .Our-teem-member-icon-box-icon:after{
+		content: "";
+		width: 50px;
+		height: 50px;
+		border-radius: 10%;
+		position:absolute;
+		transform: translate(0, 50px);
+		transition: all 0.3s ease;
+	  }
+	  
+	  .Our-teem-member-icon-box-icon.instagram:after{
+		background-color: #833AB4;
+	  }
+	  .Our-teem-member-icon-box-icon.facebook:after{
+		background-color: #3b5998;
+	  }
+
+	  .Our-teem-member-icon-box-icon.twitter:after{
+		background-color: #00acee;
+	  }
+	  .Our-teem-member-icon-box-icon.linkedin:after{
+		background-color: #0e76a8;
+	  }
+	  
+	  .Our-teem-member-icon-box-icon:hover i{
+		 color: #fff;
+	  }
+	  
+	  .Our-teem-member-icon-box-icon:hover:after{
+		transform: translate(0);
+	  }
+
+	  .Our-teem-member-icon-box-icon i{
+		color: rgb(0, 137, 123);
+	 }
+
+	 .Tochki {
+        background-color: white;
+	 height:140px;
+	 width: 1400px;
+	 display:inline-flex;
+	 box-sizing: border-box;
+	 justify-content:space-between;
+	 padding: 0 665px;
+	 align-items: end;
+	 margin-bottom: 125px;
+	 }
+
+	 .Dot
+	 {
+		 height: 15px;
+		 width: 15px;
+		 background-color: rgb(0, 137, 123) ;
+		 border-radius: 50%;
+	 }
+
+	 .Dot:hover
+	 {
+		background-color: rgb(57, 73, 171) ;
+
+	 }
+
+	 .Dot:active
+{
+	background-color: rgb(0, 0, 0) ;
+
+}
+	 /*------------------------------------------------------------*/
+     /*BLOG  by  Pavel B.*/
+
+     .flex-conteiner{
+        display:flex;
+    }
+    /*--------------------------- Blog ------------------------------------*/
+    
+    .blog{
+        box-sizing: border-box;
+        width: 1400px;
+        height: 1870px;
+        background-color: #e4fdf9;
+    }
+    
+    .blog-head{
+        height: 350px;
+    }
+    
+    .blog-article{
+        height: 400px;
+        padding-left: 115px;
+    }
+    
+    .blog-area-with-button{
+        height: 320px;
+    }
+    
+    /* -----------------------Blog header------------------------------- */
+    .blog-header-name{
+        padding-top: 125px;
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 30px;
+        font-family: OpenSans_Bold;
+    }
+    
+    .blog-header-text{
+        padding: 0 385px;
+        text-align: center;
+        font-family: OpenSans;
+        font-size: 15px;
+    }
+    
+    /* -------------------------Blog article content------------------ */
+    .blog-article-image{
+        width: 570px;
+        height: 400px;
+    }
+    .article-textbloc{
+        padding-top: 60px;
+        width: 570px;
+        
+    }
+    .article-item-right{
+        padding-left: 30px;
+    }
+    
+    .blog-article-head{
+        font-size: 25px;
+        font-family: OpenSans_SemiBold;
+        color: #2e302f;
+        text-decoration: none;
+    }
+    .blog-article-head:hover{
+        color: #00897b;
+    }
+    
+    .article-calendar-and-doc{
+        margin-top: 30px;
+        font-family: OpenSans_SemiBold;
+        font-size: 17px;
+    }
+    .arcicle-calendar-doc-link{
+        text-decoration: none;
+        color: #212121;
+    }
+    .arcicle-calendar-doc-link:hover{
+        color: #4cc03d;
+    }
+    .article-icon-marg{
+        margin-right: 10px;
+    }
+    .arcicle-doc-marg{
+        margin-right: 35px;
+    }
+    .blog-article-text{
+        font-family: OpenSans;
+        font-size: 15px;
+        text-align: left;
+        width: 440px;
+        margin-top: 30px;
+    }
+    /* ----------------------------Blog botton------------------------------- */
+    .blog-botton{
+        display: block;
+        box-sizing: border-box;
+        margin-top: 125px;
+        margin-left: 560px;
+        background-color: #00897b;
+        width: 225px;
+        height: 70px;
+        text-align: center;
+        padding-top: 25px;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Roboto_Bold;
+        color: #ffffff;
+    }
+    .blog-botton:hover{
+        background-color: darkgreen;
+    }
+    /* ----------------------------------------------------------------------------- */
+
+    /* ----------------------------------------------------------------------- */
+
+/* ------------------------Contact----------------------------------- */
+.contact{
+    box-sizing: border-box;
+    width: 1400px;
+    height: 1255px;
+    background-image: url("./images/rawpixel-com.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#ffffff;
+}
+
+.contact-head{
+    height: 325px;
+}
+/* ---------------Contact header--------------------------------- */
+.contact-header-name{
+    padding-top: 125px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: OpenSans_Bold;
+}
+
+.contact-header-text{
+    padding: 0 385px;
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 15px;
+}
+/* -------------------------------------------------------- */
+/* -------------------Contact info------------------------- */
+.contact-info{
+    height: 270px;
+    text-align: center;
+    font-family: OpenSans_SemiBold;
+    font-size: 20px;
+    display: inline-block;
+}
+.contact-location{
+    width: 270px;
+    margin-left: 215px;
+    display: inline-block;
+}
+.location-icon{
+    box-sizing: border-box;
+    margin-bottom: 35px;
+    height: 105px;
+    width: 105px;
+    background-color: #3949ab;
+    border-radius: 55px;
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+.contact-telephon{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 170px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.telephone-icon{
+    box-sizing: border-box;
+    margin-bottom: 35px;
+    height: 105px;
+    width: 105px;
+    background-color: #3949ab;
+    border-radius: 55px;
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+.contact-email{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 270px;
+}
+.email-icon{
+    box-sizing: border-box;
+    margin-bottom: 35px;
+    height: 105px;
+    width: 105px;
+    background-color: #3949ab;
+    border-radius: 55px;
+    padding-top: 20px;
+    font-size: 60px;
+}
+/* ------------------------------Form---------------------- */
+.input-text{
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    color: #4d4d4d;
+    font-family: OpenSans_SemiBold;
+    font-size: 20px;
+    padding: 35px 20px;
+
+}
+.input-name, .input-email{
+    height: 85px;
+    width: 500px;
+}
+.input-name{
+    margin-left: 185px;
+}
+.input-email{
+    margin-left: 30px;
+}
+.input-massage{
+    display: block;
+    height: 325px;
+    width: 1030px;
+    margin-top: 35px;
+    margin-left: 185px;
+    padding: 30px 20px;
+    resize: none;
+}
+
+/* -------------Submit btm-------------- */
+.contact-input-btn{
+    height: 70px;
+    width: 220px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-left: 995px;
+    font-family: Roboto_Bold;
+    font-size: 20px;
+    color: #212121;
+}
+.contact-input-btn:hover{
+    background-color: #706e6e;
+    cursor: pointer;
+}
+/* ---------------------------------------- */
+/* ----------------footer------------------ */
+.footer-text{
+    height: 65px;
+    width: 1400px;
+    background-color: #ffffff;
+    padding-top: 25px;
+    color: #212121;
+    font-family: Roboto_Bold;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+/* ----------------------------------------- */
