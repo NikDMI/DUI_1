@@ -366,6 +366,7 @@ text-align:center;
 }
 
 .latest-works-caption-text{
+	padding: 0 320px;
 	height:150px;
 	text-align:center;
 	font-family:OpenSans;
@@ -794,8 +795,8 @@ text-align:center;
         padding-left: 115px;
     }
     
-    .blog-area-with-button{
-        height: 320px;
+    .blog-area-with-botton{
+        padding-top: 125px;
     }
     
     /* -----------------------Blog header------------------------------- */
@@ -867,8 +868,7 @@ text-align:center;
     .blog-botton{
         display: block;
         box-sizing: border-box;
-        margin-top: 125px;
-        margin-left: 560px;
+        margin: auto;
         background-color: #00897b;
         width: 225px;
         height: 70px;
@@ -924,10 +924,11 @@ text-align:center;
     font-family: OpenSans_SemiBold;
     font-size: 20px;
     display: inline-block;
+    padding-left: 215px;
 }
 .contact-location{
     width: 270px;
-    margin-left: 215px;
+    margin-right: 65px;
     display: inline-block;
 }
 .location-icon{
@@ -945,8 +946,8 @@ text-align:center;
     box-sizing: border-box;
     display: inline-block;
     width: 170px;
-    margin-left: 130px;
-    margin-right: 130px;
+    margin-left: 65px;
+    margin-right: 65px;
 }
 .telephone-icon{
     box-sizing: border-box;
@@ -963,6 +964,7 @@ text-align:center;
     box-sizing: border-box;
     display: inline-block;
     width: 270px;
+    margin-left: 65px;
 }
 .email-icon{
     box-sizing: border-box;
@@ -985,22 +987,23 @@ text-align:center;
     padding: 35px 20px;
 
 }
+.form-conteiner{
+    padding-left: 185px;
+    padding-right: 185px;
+}
 .input-name, .input-email{
     height: 85px;
     width: 500px;
 }
-.input-name{
-    margin-left: 185px;
-}
+
 .input-email{
-    margin-left: 30px;
+    margin-left: 25px;
 }
 .input-massage{
     display: block;
     height: 325px;
     width: 1030px;
     margin-top: 35px;
-    margin-left: 185px;
     padding: 30px 20px;
     resize: none;
 }
@@ -1013,7 +1016,7 @@ text-align:center;
     border: none;
     background-color: #ffffff;
     margin-top: 40px;
-    margin-left: 995px;
+    float: right;
     font-family: Roboto_Bold;
     font-size: 20px;
     color: #212121;
