@@ -178,7 +178,7 @@ function purchaiseSubscription(event){
                 removeWrapper();
             },5000);
             isPremium = true;
-            localStorage.setItem("isPremium","true");
+            localStorage.setItem("isPremium","1");
         }else{
             showMessage(x,y,x,y2,3000,"Your data is incorrect!","message--update1",document.documentElement);
         }
@@ -228,11 +228,11 @@ function showMessage(left1,top1,left2,top2,time,message,addStyle="",rootElement=
 
 let prem = localStorage.getItem("isPremium");
 if(prem){
-    isPremium = prem;
+    isPremium = Boolean(prem);
 }else{
     isPremium = false;
     if(prem!="false"){
-        localStorage.setItem("isPremium","false");//установка в первый раз
+        localStorage.setItem("isPremium","");//установка в первый раз
     }
 }
 
