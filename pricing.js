@@ -218,7 +218,7 @@ function showMessage(left1,top1,left2,top2,time,message,addStyle="",rootElement=
     setTimeout(()=>{
         messageDiv.style.top = top2+"px";
         messageDiv.style.left = left2+"px";
-    },20);
+    },40);
     lastMessage=messageDiv;
     setTimeout(()=>{
         messageDiv?.remove();
