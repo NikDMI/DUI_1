@@ -24,9 +24,9 @@ const VALID_DATA = 0b111;
 function getSubscribe(event){//модальное окно оформления подписки
     if(isPremium){
         let rect = event.target.getBoundingClientRect();
-        let x = rect.x + document.body.scrollLeft-90;
+        let x = rect.x + document.scrollingElement.scrollLeft-90;
         let y = rect.y + document.scrollingElement.scrollTop;
-        showMessage(x,y,x,y-90,5000,"You always have subscription!","message--update2",document.documentElement);
+        showMessage(x,y,x,y-90,5000,"You already have a subscription!","message--update2",document.documentElement);
         return;
     }
     let wrapper = document.createElement("div");
@@ -218,7 +218,7 @@ function showMessage(left1,top1,left2,top2,time,message,addStyle="",rootElement=
     setTimeout(()=>{
         messageDiv.style.top = top2+"px";
         messageDiv.style.left = left2+"px";
-    },40);
+    },20);
     lastMessage=messageDiv;
     setTimeout(()=>{
         messageDiv?.remove();
